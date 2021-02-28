@@ -1,2 +1,8 @@
-# Covid19-Amazing-Estimator
-My teams Git hub submission for the Warwick Hackathon
+# COVID-19 Amazing Estimator
+Discord user names: Steven #9317-Beginner, Lukas #0760-Beginner
+</br><b>Inspiration</b></br>
+Our inspiration for this project is to find a way to relate to the largest issue every human faces on earth today, the COVID-19 pandemic.
+<b></br>The Functionality</b> </br>
+Our project uses the past data from 5 different countries, Canada, USA, Australia, Britain and China, and specifically the increase in COVID-19 cases for the past 12 days. With this data, we would estimate through summations, the multiplier value of an approximation exponential function  which would then be used to model the amount of COVID-19 cases in the 20 days to come. This function is also displayed in graphical form for users to visually understand how necessary it is to try and reduce even a couple cases, as with exponential pandemics, every uninfected person goes a long way. We first researched the increase of COVID-19 cases for the past 12 cases in multiple countries. With this data, we stored it in arrays inside of two separate dictionaries. Then, with rearranging the base exponential function (ab^x), we would estimate the value of b using while loops and summing the values of the multiplier at different days. Then, dividing by 11 to find the average, we would have our best approximation for the multiplier (b) of a approximation exponential function. Then, with our new found function, we would loop 20 times to create x_val and y_val arrays to display our data in graphical form using matplotlib library. 
+</br><b>How to Access the Code</b></br>
+On the Devpost submission there is a file leading to the code which can opened through a google colaboratory.
